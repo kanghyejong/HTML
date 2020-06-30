@@ -1,0 +1,43 @@
+최종 목표 : 유튜브 생활코딩 영상과 freecodecamp 사이트를 활용하여 웹프로그래밍을 공부하려고 합니다.
+
+
+날짜별 목표 
+
+- 2020년 07월 01일 : zoom , 16시~19시 
+>> 
+1. 생활코딩 영상 WEB1 - HTML & Internet 1~35 시청
+2. freecodecamp사이트 Responsive Web Design Certification - Basic HTML and HTML5(28개 문제)
+
+
+-2020년 07월 08일 : zoom , 16시~19시
+>> 
+1. 생활코딩 영상 WEB2 - CSS 1~6 시청
+2. freecodecamp사이트 Responsive Web Design Certification - Basic CSS(44개 문제)
+
+
+-2020년 07월 15일 : zoom , 16시~19시
+>> 
+1. 생활코딩 영상 WEB2 - CSS 7~10 시청
+2. freecodecamp사이트 Responsive Web Design Certification - Applied Visual Design(52개 문제)
+ 
+
+-2020년 07월 22일 : zoom , 16시~19시
+>> 
+1. 생활코딩 영상 WEB2 - CSS 11~16 시청
+2. freecodecamp사이트 Responsive Web Design Certification - Applied Accessibility(22개 문제)
+3. freecodecamp사이트 Responsive Web Design Certification - Responsive Web Design Principles(4개 문제)
+4. freecodecamp사이트 Responsive Web Design Certification - CSS Flexbox(17개 문제)
+
+
+-2020년 07월 29일 : zoom , 16시~19시  
+>> 
+1. freecodecamp사이트 Responsive Web Design Certification - CSS Grid(22개 문제)
+2. freecodecamp사이트 Responsive Web Design Certification - Responsive Web Design Progects(5개 문제)
+3. 생활코딩 영상 WEB2 - JavaScrip 1~38 시청
+
+
+-2020년 08월 05일 : zoom , 16시~19시
+>> 
+1. 생활코딩 영상 WEB2 - Home server 1~10 시청
+2. 생활코딩 영상 WEB2 - Domain Name System 1~14 시청
+
