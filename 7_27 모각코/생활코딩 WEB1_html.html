@@ -3,30 +3,77 @@
     <title> WEB1 - 생활코딩</title>
     <meta charset = "utf-8">
     <style>
+        body{
+            margin: 0px;
+        }
+        /*
+        inline element
+        */
         a{
-            color:red;
+            color:gray;
+            text-decoration: none;
+            /*display:block;*/
+        }
+        #active{
+            color:blueviolet;
+            text-decoration: underline;
+        }
+        .saw{
+            color:antiquewhite;
+        }
+        /*
+        block level element
+        */
+        h1{
+            border-bottom: aquamarine 5px groove;
+            padding:30px;
+            margin:0px;
+            width: 700px;
+            font-size:60px;
+            text-align:center;
+        }
+        #grid ol{
+            
+            width: 100px;
+            margin: 0px;
+            padding: 30px;
+        }
+        #grid{
+            border: 5px aquamarine groove;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+        }
+        #text{
+            border-left: 5px aquamarine groove;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
-<h1><a href = "생활코딩 WEB1_html.html">WEB</a></h1>   
-<ol>
-    <li><a href ="WEB1_1.html">HTML</a></li>
-    <li><a href ="WEB1_2.html">CSS</a></li>
-    <li><a href ="WEB1_3.html">JavaScript</a></li>
+<h1><a href = "생활코딩 WEB1_html.html" class="saw" id="active" > WEB</a></h1>   
+<div id ="grid">
+<ol >
+    <li><a href ="WEB1_1.html" class="saw">HTML</a></li>
+    <li><a href ="WEB1_2.html" class="saw">CSS</a></li>
+    <li><a href ="WEB1_3.html" class="saw">JavaScript</a></li>
 </ol>
+<div id="text">
+<div id="grid">
+    <div>ABC</div>
+    <div>abc</div>
+</div>
 <!--
 <ol>
-    <li><a href ="WEB1_1.html"><font color = "red" >HTML</font></a></li>
+    <li><a href ="WEB1_1.html"><font color = "blue" >HTML</font></a></li>
     <li><a href ="WEB1_2.html"><font color = "red" >CSS</font></a></li>
     <li><a href ="WEB1_3.html"><font color = "red" >JavaScript</font></a></li>
 </ol>
--->
 <ul>
     <li>HTML</li>
     <li>CSS</li>
     <li>JavaScript</li>
 </ul>
+-->
 <h2>생활코딩</h2>
 <strong>WebProgramming</strong><br><br>
 <p>
@@ -61,4 +108,6 @@
     <strong><u>웹프 완전정복!!!</u></strong>
 </p>
 <img src = "coding.jpg" width = "700">
+</div>
+</div>
 </body>
