@@ -1,0 +1,104 @@
+<html>
+<head>
+    <title> WEB1 - JavaScript</title>
+    <meta charset = "utf-8">
+</head>
+<body>
+    <style>
+        body{
+            margin: 0px;
+        }
+        /*
+        inline element
+        */
+        a{
+            color:gray;
+            text-decoration: none;
+            /*display:block;*/
+        }
+        #active{
+            color:blueviolet;
+            text-decoration: underline;
+        }
+        .saw{
+            color:antiquewhite;
+        }
+        /*
+        block level element
+        */
+        h1{
+            border-bottom: aquamarine 5px groove;
+            padding:30px;
+            margin:0px;
+            width: 700px;
+            font-size:60px;
+            text-align:center;
+        }
+        #grid ol{
+            
+            width: 100px;
+            margin: 0px;
+            padding: 30px;
+        }
+        #grid{
+            border: 5px aquamarine groove;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+        }
+        #text{
+            border-left: 5px aquamarine groove;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+<h1><a href = "생활코딩 WEB1_html.html" class="saw"> WEB</a></h1>   
+<div id="grid">
+    <div>
+    
+<ol>
+    <li><a href ="WEB1_1.html" class="saw">HTML</a></li>
+    <li><a href ="WEB1_2.html" class="saw">CSS</a></li>
+    <li><a href ="WEB1_3.html" class="saw" id="active">JavaScript</a></li>
+</ol>
+</div>
+<div id="text">
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <h2>JavaScript</h2>
+    <strong>WebProgramming</strong><br><br>
+    <p>
+        <u>JavaScript를 사용하기 시작한다.</u><br>
+        
+    </p>
+    <table>
+        <a href = "https://www.naver.com/" target = "blank" 
+        title = "naver">NAVER</a>
+        <tr>
+            <td>1</td>
+            <td><a href = "https://www.youtube.com/watch?v=qR90tdW0Hbo
+                &feature=youtu.be" target = "blank" title = "생활코딩">
+                생활코딩</a></td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href = "https://www.freecodecamp.org/learn" 
+                    target = "blank" title = "freeCodeCamp">
+                    freeCodeCamp</a></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>VS code</td>
+    </tr>
+</table>
+<p>
+    <strong><u>JavaScript 완전정복!!!</u></strong>
+</p>
+<img src = "coding.jpg" width = "700">
+</div>
+</div>
+</body>
