@@ -1,0 +1,136 @@
+<html>
+
+<head>
+    <title> WEB1 - 생활코딩</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script>
+    </script>
+</head>
+
+<body>
+    <h1><a href="생활코딩 WEB1_html.html" class="saw" id="active"> WEB</a>
+    </h1>
+    <div id="grid">
+        <ol>
+            <li><a href="WEB1_1.html" class="saw">HTML</a></li>
+            <li><a href="WEB1_2.html" class="saw">CSS</a></li>
+            <li><a href="WEB1_3.html" class="saw">JavaScript</a></li>
+        </ol>
+        <div id="text">
+            <p>
+            <!--
+                1.하나씩 버튼을 만든 경우
+                <input type="button" value="night" onclick="
+                document.querySelector('body').style.backgroundColor ='black';
+                document.querySelector('body').style.color='white';
+                ">
+
+                <input type="button" value="day" onclick="
+                document.querySelector('body').style.backgroundColor='white';
+                document.querySelector('body').style.color='black';
+                ">
+
+                2.조건문과 하나의 버튼으로 동작하도록 한 경우
+                <input id="night_day" type="button" value="night" onclick="
+                if(document.querySelector('#night_day').value === 'night'){
+                    document.querySelector('body').style.backgroundColor='black';
+                    document.querySelector('body').style.color='white';
+                    document.querySelector('#night_day').value ='day';
+                } else{
+                    document.querySelector('body').style.backgroundColor='white';
+                    document.querySelector('body').style.color='black' ;
+                    document.querySelector('#night_day').value ='night';
+                } 
+                ">
+                3. 조건문과 하나의 버튼으로 동작하는데 this를 사용하여 이것을 
+                복사하여 다른 곳에 쓰여도 가능하도록 한 경우
+            -->
+            <input type="button" value="night" onclick="
+            var target =  document.querySelector('body');
+                if(this.value === 'night'){
+                    target.style.color='white';
+                    target.style.backgroundColor='black';
+                    this.value ='day';
+                    var link = document.querySelectorAll('a');
+                    var i = 0;
+                    while(i < link.length){
+                        link[i].style.color = 'powderblue';
+                        i = i + 1;
+                    }
+                } else{
+                    target.style.backgroundColor='white';
+                    target.style.color='black' ;
+                    this.value ='night';
+                    var link = document.querySelectorAll('a');
+                    var i = 0;
+                    while(i < link.length){
+                        link[i].style.color = 'blue';
+                        i = i + 1;
+                    }
+                } 
+                ">
+            </p>
+            <!--
+            <p>
+                <script>
+                    var subject = ['HTML', 'CSS', 'JavaScript'];
+                </script>
+                    <ul>
+                        <script>
+                        var i = 0;
+                    while(i < subject.length){
+                        document.write('<li>'+subject[i]+'</li>');
+                        i = i + 1;
+                    }
+                </script>
+                    </ul>
+            </p>
+            -->
+<!--
+<ol>
+    <li><a href ="WEB1_1.html"><font color = "blue" >HTML</font></a></li>
+    <li><a href ="WEB1_2.html"><font color = "red" >CSS</font></a></li>
+    <li><a href ="WEB1_3.html"><font color = "red" >JavaScript</font></a></li>
+</ol>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+-->
+            <h2>생활코딩</h2>
+            <strong>WebProgramming</strong><br><br>
+            <p>
+                <u>웹프로그래밍을 시작한다.</u><br>
+            </p>
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <table>
+                <a href="https://www.naver.com/" target="blank" title="naver(www.naver.com)">NAVER</a>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://www.youtube.com/watch?v=qR90tdW0Hbo
+        &feature=youtu.be" target="blank" title="생활코딩">
+                            생활코딩</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://www.freecodecamp.org/learn" target="blank" title="freeCodeCamp">
+                            freeCodeCamp</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>VS code</td>
+                </tr>
+            </table>
+            <p>
+                <strong><u>웹프 완전정복!!!</u></strong>
+            </p>
+            <img src="coding.jpg" width="700">
+        </div>
+    </div>
+</body>
