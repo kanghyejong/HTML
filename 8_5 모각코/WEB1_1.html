@@ -15,6 +15,31 @@
         </ol>
     </div>
     <div id="text">
+        <input type="button" value="night" onclick="
+            var target =  document.querySelector('body');
+                if(this.value === 'night'){
+                    target.style.color='white';
+                    target.style.backgroundColor='black';
+                    this.value ='day';
+                    var link = document.querySelectorAll('a');
+                    var i = 0;
+                    while(i < link.length){
+                        link[i].style.color = 'powderblue';
+                        i = i + 1;
+                    }
+                } else{
+                    target.style.backgroundColor='white';
+                    target.style.color='black' ;
+                    this.value ='night';
+                    var link = document.querySelectorAll('a');
+                    var i = 0;
+                    while(i < link.length){
+                        link[i].style.color = 'blue';
+                        i = i + 1;
+                    }
+                } 
+                ">
+            </p>
         <ul>
             <li>HTML</li>
             <li>CSS</li>
